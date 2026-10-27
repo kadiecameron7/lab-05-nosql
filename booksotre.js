@@ -48,4 +48,4 @@ db.authors.insertMany([
 
 // Step 8: filter books by a list of authors
 // paste your find command here
-db.books.find({authors_ids: {$in: ["author_001", "author_005"]}})
+db.books.find({author_ids: {$in: ["author_001", "author_005"]}})
